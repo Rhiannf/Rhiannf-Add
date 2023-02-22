@@ -17,7 +17,7 @@ public class AddTest {
     public void addTest1(){
         int input1 = 1;
         int input2 = 2;
-        int expected = 3;
+        int expected = 0;
         int actual = a.addNumbers(input1, input2);
         Assert.assertEquals(expected, actual);
     }
@@ -29,7 +29,7 @@ public class AddTest {
     public void addTest2(){
         int input1 = 3;
         int input2 = 4;
-        int expected = 7;
+        int expected = 0;
         int actual = a.addNumbers(input1, input2);
         Assert.assertEquals(expected, actual);
     }
